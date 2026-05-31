@@ -43,6 +43,7 @@ meta 仓库,包含完整的交叉编译脚本、20 余条针对 OHOS musl 的 pa
 
 ## 仓库结构
 
+```
 HarmonyBox/
 ├── README.md
 ├── LICENSE                              # MIT
@@ -82,6 +83,7 @@ HarmonyBox/
 │
 └── thirdparty/                          # 不入库, 由脚本克隆
     └── .gitkeep
+```
 
 ## 构建前准备
 
