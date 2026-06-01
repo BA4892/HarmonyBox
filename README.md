@@ -29,17 +29,17 @@ templates, HNP packaging recipes, and debugging tools.
 
 ## Current Status
 
-| Type              | Status | Notes                                     |
-|-------------------|------|----------- -------------------------------|
-| musl  / dynamic   | ✅   | 14/14 tests passed                           |
-| glibc / dynamic   | ✅   | 14/14 tests passed                           |
-| musl  / static    | ⚠️   | Signal handler incompatibility             |
-| glibc / static    | ❌   | Known upstream limitation on box64                       |
-| Multithreading (pthread)  | ✅   | create/join/mutex all passed                 |
-| File I/O           | ✅   | fopen/fread/fstat passed                   |
-| signal            | ✅   | sigaction available on dynamic ELF            |
-| Floating-point / SIMD       | ✅   | FPU/SSE paths pass                           |
-| DynaRec           | ✅   | Enabled, includes ASIMD/AES/CRC32 on Kirin 9010... |
+| Type                          | Status | Notes                                                     |
+|-------------------------------|--------|-----------------------------------------------------------|
+| musl / dynamic                | ✅     | 14/14 tests passed                                        |
+| glibc / dynamic               | ✅     | 14/14 tests passed                                        |
+| musl / static                 | ⚠️     | Signal handler incompatibility                            |
+| glibc / static                | ❌     | Known upstream limitation on box64                        |
+| Multithreading (pthread)      | ✅     | create/join/mutex all passed                              |
+| File I/O                      | ✅     | fopen/fread/fstat passed                                  |
+| signal                        | ✅     | sigaction available on dynamic ELF                        |
+| Floating‑point / SIMD         | ✅     | FPU/SSE paths pass                                        |
+| DynaRec                       | ✅     | Enabled, includes ASIMD/AES/CRC32 on Kirin 9010...        |
 
 ## Repository Structure
 
